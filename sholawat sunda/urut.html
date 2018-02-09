@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sholawat Sunda</title>
+<!-- for-mobile-apps -->
+<!-- //for-mobile-apps -->
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- main -->
+<div class="audio-main">
+	<h1><b>Kumpulan Sholawat Sunda</b></h1>
+	<center> <a href="../index.html"> <img src="home.jpeg" width="65" height="65"></a></center>
+	<br>
+	<div class="audio-record-list">
+					<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+						<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+							<div class="jp-type-playlist">
+								<div class="jp-gui jp-interface">
+									<div class="jp-controls">	
+										<button class="jp-play" role="button" tabindex="0">Play</button>
+									</div>
+									<div class="jp-progress">
+										<div class="jp-seek-bar">
+											<div class="jp-play-bar"></div>
+										</div>
+									</div>
+									<div class="jp-volume-controls">
+										<button class="jp-mute" role="button" tabindex="0">Mute</button>
+										<button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+										<div class="jp-volume-bar">
+											<div class="jp-volume-bar-value"></div>
+										</div>
+									</div>
+									<div class="jp-time-holder">
+										<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+										<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+									</div>
+									
+								</div>
+								<div class="jp-playlist">
+									<ul>
+										<li>&nbsp;</li>
+									</ul>
+								</div>
+								<div class="jp-no-solution">
+									<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+								</div>
+							</div>
+						</div>
+	</div>
+	</div>
+</div>
+<!-- //main -->
+<!-- script for play-list -->
+<link href="css/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+
+	new jPlayerPlaylist({
+		jPlayer: "#jquery_jplayer_1",
+		cssSelectorAncestor: "#jp_container_1"
+	}, [
+	    {
+			title:"Es Lilin ",
+			mp3:"https://ia800305.us.archive.org/13/items/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live%20-%20Wanda%20Sunda/Es%20Lilin.mp3",
+			
+		},
+		
+		{
+			title:"Dulang Kuring",
+			mp3:"https://ia800305.us.archive.org/13/items/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live%20-%20Wanda%20Sunda/Dulang%20Kuring.mp3",
+			
+		},
+
+		{
+			title:"Nalangsa ",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live%20-%20Wanda%20Sunda/Nalangsa.mp3",
+			
+		},
+
+		{
+			title:"Sakur Ngimpi",
+			mp3:"https://ia800305.us.archive.org/13/items/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live%20-%20Wanda%20Sunda/Sakur%20Ngimpi.mp3",
+			
+		},
+
+		{
+			title:"Sasak Raja Mandala",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live%20-%20Wanda%20Sunda/Sasak%20Raja%20Mandala.mp3",
+			
+		},
+
+		{
+			title:"Laila Majnun ",
+			mp3:"https://ia800305.us.archive.org/13/items/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live%20-%20Wanda%20Sunda/Syair%20Laila%20Majnun.mp3",
+			
+		},
+
+		{
+			title:"Wanda Daun Hiris",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live%20-%20Wanda%20Sunda/Wanda%20Daun%20Hiris.mp3",
+			
+		},
+
+		{
+			title:"Wanda Di Maribaya",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live%20-%20Wanda%20Sunda/Wanda%20Di%20Maribaya.mp3",
+			
+		},
+
+		{
+			title:"Wanda Hamdan",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live%20-%20Wanda%20Sunda/Wanda%20Hamdan.mp3",
+			
+		},
+
+		{
+			title:"Habibi Ya Nurulain ",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live/HabibiYaNurulain.mp3",
+			
+		},
+
+		 {
+			title:"Hubbun Nabi ",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live/HubbunNabi.mp3",
+			
+		},
+		
+		{
+			title:"Thalama Asyku Gharam ",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live/ThalamaAsykuGharam.mp3",
+			
+		},
+
+		{
+			title:"Waqti Sahar Biati ",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live/WaqtiSaharBiati.mp3",
+			
+		},
+
+		{
+			title:"Ya Asyiqa Musthafa",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live/YaAsyiqalMusthafa.mp3",
+			
+		},
+
+		{
+			title:"Ya Habibi Ya Muhammad",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live/YaHabibiYaMuhammad.mp3",
+			
+		},
+
+		{
+			title:"Ya Hannan Ya Mannan ",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Live/YaHannanYaMannan.mp3",
+			
+		},
+
+		{
+			title:"Al Ibul Mutayyam",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Vol%201%20-%20Rohban/Al%20Qolbul%20Mutayyam.mp3",
+			
+		},
+
+		{
+			title:"Allohhu Ya Alloh",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Vol%201%20-%20Rohban/Allahu%20Yaa%20Allah.mp3",
+			
+		},
+
+		{
+			title:"Allohumma Sholli",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Vol%201%20-%20Rohban/Allohumma%20Sholli.mp3",
+			
+		},
+
+		{
+			title:"Assubhu Bada ",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Vol%201%20-%20Rohban/Assubhu%20Bada.mp3",
+			
+		},
+
+		 {
+			title:"Busyro Lana ",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Vol%201%20-%20Rohban/Busyro%20Lana.mp3",
+			
+		},
+		
+		{
+			title:"Darbul Huda",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Vol%201%20-%20Rohban/Darbul%20Huda.mp3",
+			
+		},
+
+		{
+			title:"Illahi Lastu ",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Vol%201%20-%20Rohban/Ilahi%20Lastu.mp3",
+			
+		},
+
+		{
+			title:"Ya Asiqol Mustofa ",
+			mp3:"https://archive.org/download/ShalawatSunda/Al%20Hasani%20-%20Sumedang%20-%20Bandung/Vol%201%20-%20Rohban/Ya%20Asiqol%20Mustofa.mp3",
+			
+		},
+
+						
+
+	], {
+		swfPath: "../../dist/jplayer",
+		supplied: "oga, mp3",
+		wmode: "window",
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true
+	});
+});
+//]]>
+</script>
+<!-- //script for play-list -->
+<div style="text-align: center;">
+					<span style="font-family: Trebuchet MS, sans-serif; font-size: x-small;">Mumule Sholawat Sunda</span><br />
+		 </div>	
+
+		 <br>
+		 <br>
+		 <br>
+</body>
+</html>

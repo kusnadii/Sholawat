@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sholawat Almanshuriyyah</title>
+<!-- for-mobile-apps -->
+<!-- //for-mobile-apps -->
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- main -->
+<div class="audio-main">
+	<h1><b>Kumpulan Sholawat Almanshuriyyah</b></h1>
+	<center> <a href="../index.html"> <img src="home.jpeg" width="65" height="65"></a></center>
+	<br>
+	<div class="audio-record-list">
+					<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+						<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+							<div class="jp-type-playlist">
+								<div class="jp-gui jp-interface">
+									<div class="jp-controls">	
+										<button class="jp-play" role="button" tabindex="0">Play</button>
+									</div>
+									<div class="jp-progress">
+										<div class="jp-seek-bar">
+											<div class="jp-play-bar"></div>
+										</div>
+									</div>
+									<div class="jp-volume-controls">
+										<button class="jp-mute" role="button" tabindex="0">Mute</button>
+										<button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+										<div class="jp-volume-bar">
+											<div class="jp-volume-bar-value"></div>
+										</div>
+									</div>
+									<div class="jp-time-holder">
+										<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+										<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+									</div>
+									
+								</div>
+								<div class="jp-playlist">
+									<ul>
+										<li>&nbsp;</li>
+									</ul>
+								</div>
+								<div class="jp-no-solution">
+									<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+								</div>
+							</div>
+						</div>
+	</div>
+	</div>
+</div>
+<!-- //main -->
+<!-- script for play-list -->
+<link href="css/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+
+	new jPlayerPlaylist({
+		jPlayer: "#jquery_jplayer_1",
+		cssSelectorAncestor: "#jp_container_1"
+	}, [
+	    {
+			title:"Ahmad Ya Habibi ",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Ahmad%20Ya%20Habibi.mp3",
+			
+		},
+		
+		{
+			title:"Ana Al Faqiru",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Ana%20Al-Faqiru%20-%20AlManshuriyyah%20Feat%20Hilmi.mp3",
+			
+		},
+
+		{
+			title:"Aqidatul Awwam ",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Aqidatul%20Awwam%20-%20Live%20Cibitung%20Padasuka%20Sumedang.mp3",
+			
+		},
+
+		{
+			title:"Asrokot Syamsu",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Asrokot%20Syamsu.mp3",
+			
+		},
+
+		{
+			title:"Bi Maulidil Hadi",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Bi%20Maulidil%20Hadi.mp3",
+			
+		},
+
+		{
+			title:"Birosulillah",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Birosulillah.mp3",
+			
+		},
+
+		{
+			title:"Darbul Huda",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Darbul%20Huda%20-%20Al-Manshuriyyah%20Feat%20Hilmi.mp3",
+			
+		},
+
+		{
+			title:"Demi Wanci",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Demi%20Wanci.mp3",
+			
+		},
+
+		{
+			title:"Ilahana",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Ilahana.mp3",
+			
+		},
+
+		{
+			title:"Khobiri ",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Khobiri.mp3",
+			
+		},
+
+		{
+			title:"Kisah Sang Rosul ",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Kisah%20Sang%20Rosul.mp3",
+			
+		},
+		
+		{
+			title:"KunAnta",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Kun%20Anta%20-%20Live%20Cibitung%20Padasuka%20Sumedang.mp3",
+			
+		},
+
+		{
+			title:"Live On Sumedang",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Live%20Cibitung%20Padasuka%20Sumedang%20-%20Al-Manshuriyyah%20Part%204.mp3",
+			
+		},
+
+		{
+			title:"Live On Sumedang 2",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Live%20Cibitung%20Padasuka%20Sumedang%20-%20Al-Manshuriyyah%20Part%205.mp3",
+			
+		},
+
+		{
+			title:"Mahalul Qiyam",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Mahalul%20Qiyam%20-%20Live%20Cibitung%20Padasuka%20Sumedang.mp3",
+			
+		},
+
+		{
+			title:"Pepeling Wanda Cadas Pangeran",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Pepeling%20Wanda%20Cadas%20Pangeran.mp3",
+			
+		},
+
+		{
+			title:"Sholatulloh Ala Thoha",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Sholatullah%20Ala%20Thoha.mp3",
+			
+		},
+
+		{
+			title:"Sholatulloh Wanda Tumila",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Sholatulllah%20Wanda%20Tumila.mp3",
+			
+		},
+
+		{
+			title:"Sholla Wasallama ",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Sholla%20Wasallama%20with%20KH.%20Muhyidin%20Abdul%20Qodir%20Al%20Manafi%20MA.mp3",
+			
+		},
+
+		{
+			title:"Ta Alao Wanda Wangsit Siliwangi ",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Ta%20Alao%20Wanda%20Wangsit%20Siliwangi.mp3",
+			
+		},
+
+		{
+			title:"Ahmad Ya Habibi ",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Terbangan%20Al%20-%20Manshuriyyah%20-%20Ahmad%20Ya%20Habibi.mp3",
+			
+		},
+		
+		{
+			title:"Waqti Sahar Biati",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Waqti%20Sahar%20Biati.mp3",
+			
+		},
+
+		{
+			title:"Ya Badrotim  ",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Ya%20Badrotim%20-%20Live%20Cibitung%20Padasuka%20Sumedang.mp3",
+			
+		},
+
+		{
+			title:"Ya Muhaimin Ya Salam",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Ya%20Muhaimin%20Ya%20Salam.mp3",
+			
+		},
+
+		{
+			title:"Ya Nabi Salam ",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Ya%20Nabi%20Salam%20-%20Al-Manshuriyyah%20Feat%20KH%20Salimul%20Apip.mp3",
+			
+		},
+
+		{
+			title:"Ya Nabi Salam Alaika ",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Ya%20Nabi%20Salam%20Alaika.mp3",
+			
+		},
+
+		{
+			title:"Ya Robbi Solli Ala ",
+			mp3:"https://archive.org/download/SholawatSundaAlManshuriyyah/Al-Manshuriyyah/Ya%20Robbi%20Solli%20Ala%20Rosul.mp3",
+			
+		},
+
+						
+
+	], {
+		swfPath: "../../dist/jplayer",
+		supplied: "oga, mp3",
+		wmode: "window",
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true
+	});
+});
+//]]>
+</script>
+<!-- //script for play-list -->
+<div style="text-align: center;">
+					<span style="font-family: Trebuchet MS, sans-serif; font-size: x-small;">Sholawat Almanshuriyyah</span><br />
+		 </div>	
+
+		 <br>
+		 <br>
+		 <br>
+</body>
+</html>

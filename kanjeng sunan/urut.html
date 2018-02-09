@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sholawat Kanjeng Sunan</title>
+<!-- for-mobile-apps -->
+<!-- //for-mobile-apps -->
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- main -->
+<div class="audio-main">
+	<h1><b>Sholawat Kanjeng Sunan</b></h1>
+	<center> <a href="../index.html"> <img src="home.jpeg" width="65" height="65"></a></center>
+	<br>
+	<div class="audio-record-list">
+					<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+						<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+							<div class="jp-type-playlist">
+								<div class="jp-gui jp-interface">
+									<div class="jp-controls">	
+										<button class="jp-play" role="button" tabindex="0">Play</button>
+									</div>
+									<div class="jp-progress">
+										<div class="jp-seek-bar">
+											<div class="jp-play-bar"></div>
+										</div>
+									</div>
+									<div class="jp-volume-controls">
+										<button class="jp-mute" role="button" tabindex="0">Mute</button>
+										<button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+										<div class="jp-volume-bar">
+											<div class="jp-volume-bar-value"></div>
+										</div>
+									</div>
+									<div class="jp-time-holder">
+										<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+										<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+									</div>
+									
+								</div>
+								<div class="jp-playlist">
+									<ul>
+										<li>&nbsp;</li>
+									</ul>
+								</div>
+								<div class="jp-no-solution">
+									<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+								</div>
+							</div>
+						</div>
+	</div>
+	</div>
+</div>
+<!-- //main -->
+<!-- script for play-list -->
+<link href="css/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+
+	new jPlayerPlaylist({
+		jPlayer: "#jquery_jplayer_1",
+		cssSelectorAncestor: "#jp_container_1"
+	}, [
+	    {
+			title:"Sholawat Ke 1 ",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Shollu%20Alaik.mp3",
+			
+		},
+		
+		{
+			title:"Sholawat Ke 2",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Tombo%20Ati.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 3 ",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Baitulloh.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 4",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Dawuh%20Nabi.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 5",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Eling%20Eling.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 6 ",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Eman%20Eman.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 7",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Gedongana%20Koncenana.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 8",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Godong%20Ganggeng.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 9",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Istighfar.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 10 ",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Jawaban%20Kubur.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 11 ",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Lir%20Ilir.mp3",
+			
+		},
+		
+		{
+			title:"Sholawat Ke 12",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Luru%20Ilmu.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 13 ",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Maulana.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 14",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Nyuwun%20Kesucian.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 15",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Piwarah.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 16 ",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Puasa%20Fardhu.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 17",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Pulasara.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 18",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Pungkasan%20Urip.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 19",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Robbana.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 20 ",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Rukun%20Islam.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 21 ",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Sangu%20Mati.mp3",
+			
+		},
+		
+		{
+			title:"Sholawat Ke 22",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Sembiri%20Rinda.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 23 ",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Shirotol%20Mustaqim.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 24",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Sholawat%20Nariyah.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 25",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Siksa%20Kubur.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 26 ",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Syair%20Abu%20Nawas.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 27",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Tanda%20Sholat.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 28",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Tawasul.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 29",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Ayun%20Ayun%20Badan.mp3",
+			
+		},
+
+		{
+			title:"Sholawat Ke 30 ",
+			mp3:"https://archive.org/download/LaguSholawatanKanjengSunan/Turi%20Turi%20Putih.mp3",
+			
+		},
+				
+
+	], {
+		swfPath: "../../dist/jplayer",
+		supplied: "oga, mp3",
+		wmode: "window",
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true
+	});
+});
+//]]>
+</script>
+<!-- //script for play-list -->
+<div style="text-align: center;">
+					<span style="font-family: Trebuchet MS, sans-serif; font-size: x-small;">Sholawat Indah Dan Merdu</span><br />
+		 </div>	
+
+		 <br>
+		 <br>
+		 <br>
+</body>
+</html>
